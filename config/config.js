@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFirefoxBrowser } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Guy",
 	links: [
 		{
 			title: "About",
@@ -19,14 +19,14 @@ export const navigation = {
 			link: "#contact",
 		},
 		{
-			title: "Links",
+			title: "Final Project Video",
 			link: "/links",
 		},
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Guy",
+	description: "A CyberOps/ISA dual major wondering if he should get a math major as well.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +45,12 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"Heya! I'm Guy Nguyen-Phuoc, a senior at the University of Hawaii West Oahu dual majoring in Cyber Operations and Information Security & Assurances. I’m expecting to graduation in Fall 2022. Currently, I’m debating on getting a degree in mathematics to assist my pursuits of going to graduate school, where I will attain my PhD in either Cyber Security or Computer Science.",
+		"Currently an Intern for an undisclosed company where I work as a Cybersecurity Engineer, I enjoy researching low-level binary exploitation that involves the stack, studying Artificial Intelligence/Machine Learning applications in signal analysis, and participating in Capture The Flag events. In my spare time I learn about photography and VFX.",
+		"I was born in Tulsa, Oklahoma in 1994, making me 27 years old and ever so close to the magic 30. Having lived there for about 14 years, my family decided to move to Hawaii in 2008. The biggest surprise for me was the temperature difference, in Oklahoma the temperature ranges from -20 degrees Fahrenheit to 110 degrees Fahrenheit. Here in Hawaii, the temperature is practically consistent throughout the year, and as someone from Oklahoma I do miss the seasons, winter especially. Outside of photography and VFX, some of my hobbies include reading history, an old board game called Baduk, playing strategy games, and my struggles with the piano.",
+		"Looking forward to the future and where it takes me.",
+		"Solving Problems for a Safer World,",
+		"Guy Nguyen-Phuoc",
 	],
 }
 
@@ -55,13 +58,13 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Cybersecurity Engineer",
+			description: "I explore exploitation techniques that involve the stack: ROP, buffer-overflow, stack canaries, DEP/NX, ASLR, and return-to-libc.",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Cybersecurity Research Analyst",
+			description: "I research AI/ML localization techniques regarding rouge access points.",
 			icons: null,
 		}
 	],
@@ -71,40 +74,32 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Improving SNR with Optimized Kaiser Window FIR Filter Coefficients Via Genetic Algorithm.",
+			description: "A paper researching Signal-to-Noise-Ratio with FIR Filters and Genetic Algorithms to attain a least noisy signal.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/GuyNguyen/pdfs/blob/master/480C_Research_Paper.pdf",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Escaping Metasploit - vsFTPd 2.3.4",
+			description: "A paper exploring manual ways of exploitation with regards to automated frameworks like Metasploit.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faFirefoxBrowser,
+					link: "https://westoahu.hawaii.edu/cyber/forensics-weekly-executive-summmaries/8424-2/",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Android Kernel Source Code Tagging",
+			description: "An interactive static webpage that presents a navigable Android Kernel. Currently down to host this project.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://guynguyen.github.io/",
 				},
 			]
 		},
@@ -113,11 +108,11 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at nguyen46@hawaii.edu.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:nguyen46@hawaii.edu",
 			isPrimary: true,
 		},
 		{
@@ -128,38 +123,22 @@ export const contact = {
 	]
 }
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	// 50 - 60 char
+	title: "Guy Nguyen-Phuoc | Cybersecurity Engineer | Forensics Analyst | Python Zealot",
+	description: "I'm a simple guy just trying to make my way through the galaxy.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@guynguyen",
+	description: "Cybersecurity Engineer | Forensics Analyst | Python Zealot",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			title: "Under Construction...",
+			link: "",
 		},
 	]
 }
