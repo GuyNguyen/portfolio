@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "",
+			link: "https://github.com/GuyNguyen/pdfs/blob/master/Guy%20Nguyen-Phuoc_resume_2_14_2022.pdf",
 			isPrimary: false,
 		},
 	],
